@@ -11,7 +11,16 @@ config_version=3
 [application]
 
 config/name="purple-version"
+run/main_scene="res://scenes/BattleDebug.tscn"
 config/icon="res://icon.png"
+
+[input]
+
+gameplay_move=[  ]
+gameplay_camera_move=[  ]
+gameplay_talk=[  ]
+gameplay_menu=[  ]
+gameplay_menu_quick=[  ]
 
 [rendering]
 
